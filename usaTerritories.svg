@@ -2,6 +2,13 @@
 <!-- (c) ammap.com | SVG map of USA Territories & Associated States- High -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 	<defs>
+		<script>
+	
+			var visitedStates = ["US-NC", "US-TX", "US-CO", "US-LA", "US-SC", "US-NY", "US-IL", 
+								 "US-TN", "US-VA", "US-WV", "US-MA", "US-CT", "US-PA", "US-DE",
+								 "US-MD", "US-NJ", "US-GA", "US-FL", "US-NM", "PR", "US-OH", "US-AZ",
+								 "US-MI"];
+		</script>
 		<style type="text/css">
 			.land
 			{
