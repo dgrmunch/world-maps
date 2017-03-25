@@ -9,6 +9,7 @@
 								 "US-MD", "US-NJ", "US-GA", "US-FL", "US-NM", "PR", "US-OH", "US-AZ",
 								 "US-MI"];
 		</script>
+		
 		<style type="text/css">
 			.land
 			{
@@ -19,6 +20,10 @@
 				stroke-width:0.5;
 			}
 			
+			.land:hover
+			{
+				fill: gray;
+			}
 			.visited
 			{
 				fill: black;
