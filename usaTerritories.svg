@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- (c) ammap.com | SVG map of USA Territories & Associated States- High -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<!-- sciartlab.com | xmunch.com | xmunch@xmunch.com | Diego Gonzalez -->
+<svg id="world-maps" xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 	<defs>
 		<script>
 	
 			var visitedStates = ["US-NC", "US-TX", "US-CO", "US-LA", "US-SC", "US-NY", "US-IL", 
 								 "US-TN", "US-VA", "US-WV", "US-MA", "US-CT", "US-PA", "US-DE",
 								 "US-MD", "US-NJ", "US-GA", "US-FL", "US-NM", "PR", "US-OH", "US-AZ",
-								 "US-MI"];
+								 "US-MI", "US-RI"];
 		</script>
 		
 		<style type="text/css">
@@ -38,6 +38,7 @@
 			  font-size: 23px;
 			  fill: white;
 			  }
+			  
 			.tooltip {
 				display:none;
 				position:absolute;
@@ -126,7 +127,7 @@
 		<path id="US-WY" title="Wyoming" class="land" d="M397.26,174.23L397.27,180.67L397.29,187.09L397.31,193.49L397.33,199.86L397.34,206.21L397.36,212.53L397.38,218.82L397.39,225.1L391.44,225.1L385.48,225.1L379.53,225.1L373.57,225.1L367.62,225.1L361.66,225.1L355.7,225.1L349.75,225.1L343.79,225.1L337.84,225.1L331.88,225.1L325.93,225.1L319.97,225.1L314.01,225.1L308.06,225.1L302.1,225.1L297.35,225.1L292.6,225.1L287.85,225.1L283.1,225.1L278.36,225.1L273.61,225.1L268.85,225.1L264.11,225.1L264.11,221.96L264.1,218.83L264.1,215.68L264.1,212.53L264.1,209.37L264.1,206.21L264.1,203.04L264.1,199.87L264.1,195.89L264.1,191.91L264.1,187.91L264.09,183.91L264.09,179.9L264.09,175.87L264.09,171.84L264.09,167.79L264.09,163.74L264.08,159.67L264.08,155.59L264.08,151.5L264.08,147.41L264.08,143.3L264.08,139.18L264.08,135.04L264.08,131.71L264.08,128.38L264.08,125.03L264.09,121.68L268.24,121.68L272.4,121.68L276.56,121.68L280.72,121.68L284.87,121.68L289.03,121.68L293.19,121.68L297.34,121.68L301.5,121.68L305.65,121.68L309.81,121.68L313.97,121.68L318.12,121.68L322.28,121.68L326.44,121.68L330.59,121.68L334.75,121.68L338.91,121.68L343.06,121.68L347.22,121.68L351.38,121.68L355.53,121.68L359.69,121.68L363.85,121.68L368,121.68L372.16,121.68L376.32,121.68L380.47,121.68L384.63,121.68L388.79,121.68L392.94,121.68L397.1,121.68L397.12,128.35L397.14,134.98L397.16,141.59L397.18,148.18L397.2,154.73L397.22,161.25L397.24,167.75z"/>
 	</g>
 	
-  	<script type="text/javascript">
+	<script type="text/javascript">
 	
 	visitedStates.forEach(setVisited);
 	
