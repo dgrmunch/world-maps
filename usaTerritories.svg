@@ -23,6 +23,26 @@
 			{
 				fill: black;
 			}
+			
+			.visited:hover
+			{
+				fill: lightblue;
+			}
+			
+			#stateName{
+			  font-size: 23px;
+			  fill: white;
+			  }
+			.tooltip {
+				display:none;
+				position:absolute;
+				border:1px solid #333;
+				background-color:#161616;
+				border-radius:5px;
+				padding:10px;
+				color:#fff;
+				font-size:12px Arial;
+			}
 		</style>
 
 		<amcharts:ammap projection="mercator" leftLongitude="-124.979930" topLatitude="49.374568" rightLongitude="-52.838841" bottomLatitude="14.808396"></amcharts:ammap>
