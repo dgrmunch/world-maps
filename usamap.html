@@ -6,7 +6,7 @@
 	<script type="text/javascript">
 	
 	$(document).ready(function(){
-		var svgElement = document.querySelector('#mapsvg').getSVGDocument().querySelector('#world-maps');
+		var svgElement = document.querySelector('#mapsvg').contentDocument.querySelector('#world-maps');
 		var panZoomTiger = svgPanZoom(svgElement);
 	});
 	</script>
