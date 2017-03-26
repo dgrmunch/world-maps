@@ -13,10 +13,9 @@
 		<style type="text/css">
 			.land
 			{
-				fill: #CCCCCC;
-				fill-opacity: 1;
-				stroke:white;
-				stroke-opacity: 1;
+				fill: white;
+				fill-opacity: 0.5;
+				stroke:lightblue;
 				stroke-width:0.5;
 			}
 			
@@ -26,12 +25,15 @@
 			}
 			.visited
 			{
-				fill: black;
+
+				stroke:black;
+				fill-opacity: 1;
 			}
 			
 			.visited:hover
 			{
 				fill: lightblue;
+				fill-opacity: 0.5;
 			}
 			
 			#stateName{
@@ -41,7 +43,9 @@
 			  
 			.tooltip {
 				display:none;
-				position:absolute;
+				position:fixed;
+				bottom: 100px;
+				right: 100px;
 				border:1px solid #333;
 				background-color:#161616;
 				border-radius:5px;
@@ -132,7 +136,7 @@
 	visitedStates.forEach(setVisited);
 	
 	function getRandomColor() {
-	   return 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+	   return 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (0) + ')';
 	}
 	
 	function setVisited(item){
