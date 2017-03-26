@@ -4,21 +4,6 @@ Traveling around the wolrd with SVG maps
 [Visited U.S.A. States](https://dgrmunch.github.io/world-maps/usamap.html)
 
 {::nomarkdown}
-
- <!DOCTYPE html>
-<html>
-<head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="http://ariutta.github.io/svg-pan-zoom/dist/svg-pan-zoom.min.js"></script>
-	<script type="text/javascript">
-	
-	$(document).ready(function(){
-		var svgElement = document.querySelector('#mapsvg').getSVGDocument().querySelector('#world-maps');
-		var panZoomTiger = svgPanZoom(svgElement);
-	});
-	</script>
-</head>
-<body>
 	
 	<style>
 	html, body { 
@@ -65,12 +50,7 @@ Traveling around the wolrd with SVG maps
 	
 	</style>
 	
-	<div id="pan-zoom" class="svg-pan-zoom_viewport">+</div>
 	<object id="mapsvg" data="usaTerritories.svg" type="image/svg+xml"></object>
 
-
- 
-</body>
-</html> 
 
 {:/}
