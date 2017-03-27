@@ -1,14 +1,14 @@
  <!DOCTYPE html>
 <html>
 <head>
-	 <script src="vendor/jquery.min.js"></script>
-	 <script type="text/javascript" src="vendor/svg-pan-zoom.min.js"></script>
+	<script src="vendor/jquery.min.js"></script>
+	<script type="text/javascript" src="vendor/svg-pan-zoom.min.js"></script>
 	<script type="text/javascript">
 	
-	// $(document).ready(function(){
-// 		var svgElement = document.querySelector('#mapsvg').contentDocument.querySelector('#world-maps');
-// 		var panZoomTiger = svgPanZoom(svgElement);
-// 	});
+	$(document).ready(function(){
+		var svgElement = document.querySelector('#mapsvg').getSVGDocument().querySelector('#world-maps');
+		var panZoomTiger = svgPanZoom(svgElement);
+	});
 	</script>
 </head>
 <body>
